@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(101, 101, 245);
+}
+
+.formulario{
+    padding-left: 20px;
+}
+.cores{
+    padding-left: 10px;
+    background-color: rgb(193, 193, 250);
+    border-radius: 5px;
+    border: 2px solid rgb(193,193,250);
+}
+
+.botao:hover{
+    background-color: rgb(101, 101, 245);
+}
+
+.botao:active{
+    background-color: rgb(21, 21, 156);
+}
+
+.tabela{
+    color: rgb(101, 101, 245) ;
+    display:flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+
+.tabela2{
+    color: rgb(94, 94, 212);
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+
+.link{
+    text-decoration: none;
+    color:rgb(94, 94, 212) ;
+}
